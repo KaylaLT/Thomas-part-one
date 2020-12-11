@@ -1,0 +1,139 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  flex-direction: column;
+  display: flex;
+  background-color: #f2f2f2; 
+}
+.container1 {
+  background-color: #f2f2f2;
+  font-size: 35px;
+  font-weight: 800px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.button1 {
+  border-radius: 10px;
+  background-color: #20a8b4;
+  color: #fff;
+  height: 50px;
+  font-size: 20px;
+  padding: 12px;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  border-style: none;
+}
+h1 {
+  color: #20a8b4;
+  font-size: 40px;
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+a:hover {
+  color: #ff5c0f;
+}
+.code {
+  color: #ff5c0f;
+}
+.container2 {
+  display: flex-box;
+  flex-wrap: wrap;
+  margin: 95px 10px; 
+  align-items: center;
+  margin: 5px;
+  height: 30px;;
+}
+h2 {
+  color: #000;
+  font-weight: 900px;
+  font-size: 30px;
+}
+.button2 {
+  border-radius: 10px;
+  background-color: #20a8b4;
+  color: #fff;
+  text-decoration: none;
+  height: 50px;
+  font-size: 20px;
+  padding: 12px;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  border-style: none;
+}
+button:hover {
+  background-color: #ff5c0f;
+  cursor: pointer;
+}
+.learning {
+  color: #ff5c0f;
+}
+p {
+  font-size: 20px;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  justify-content: space-around;
+  flex-direction: column;
+ padding-left: 10px; 
+ padding-right:10px; 
+}
+ul {
+  padding: 10px;
+}
+.img {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .container1 {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: relative;
+  }
+  .container2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: left;
+    margin: 10px;
+
+
+  }
+  .li {
+    display: inline-block; 
+    align-items: flex-end;
+    font-size: 50px;
+    font-weight: 100%; 
+    position: relative; left: 200px,
+
+  }
+  h1 {
+    float: left;
+    font-weight: 600px ;
+  }
+  .button1{
+    width: auto;
+  }
+  .button2 {
+    width: auto;
+  }
+
+  .img {
+    display: inline-block;
+    margin: 40px  10px;
+    width: 330px;
+    align-items: right;
+  }
+}
